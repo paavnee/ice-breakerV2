@@ -1,5 +1,6 @@
 import os
 import requests
+import sys
 
 
 def scrape_linkedin_profile(linkedin_profile_url: str):
