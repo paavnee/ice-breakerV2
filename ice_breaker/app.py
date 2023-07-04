@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from ice_breaker import ice_break_with
-from collections import Counter
+import os
 app = Flask(__name__)
 
 
